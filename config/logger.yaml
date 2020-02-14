@@ -34,4 +34,7 @@ logs:
   requests.packages.urllib3.connectionpool: critical
   urllib3.connectionpool: error
   root: warn
+  august.api: debug
+  homeassistant.components.august: debug
+  custom_components.august: debug
   skybellpy: warn
